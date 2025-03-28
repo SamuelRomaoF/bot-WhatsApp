@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Smartphone frame -->
+  <rect x="250" y="50" width="300" height="500" rx="20" ry="20" fill="#f1f1f1" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Screen -->
+  <rect x="260" y="70" width="280" height="450" rx="5" ry="5" fill="#fff"/>
+  
+  <!-- WhatsApp interface -->
+  <rect x="260" y="70" width="280" height="50" rx="5" ry="5" fill="#075E54"/>
+  <text x="290" y="100" font-family="Arial" font-size="16" fill="#fff">WhatsBot</text>
+  
+  <!-- Chat bubbles -->
+  <!-- Received messages -->
+  <rect x="270" y="130" width="160" height="40" rx="10" ry="10" fill="#f1f1f1"/>
+  <text x="280" y="155" font-family="Arial" font-size="12" fill="#333">Olá, como posso ajudar?</text>
+  
+  <rect x="270" y="180" width="170" height="40" rx="10" ry="10" fill="#f1f1f1"/>
+  <text x="280" y="205" font-family="Arial" font-size="12" fill="#333">Sou o WhatsBot ao seu dispor</text>
+  
+  <!-- Sent messages -->
+  <rect x="340" y="230" width="190" height="40" rx="10" ry="10" fill="#DCF8C6"/>
+  <text x="350" y="255" font-family="Arial" font-size="12" fill="#333">Quero informações sobre os planos</text>
+  
+  <!-- Bot response -->
+  <rect x="270" y="280" width="260" height="80" rx="10" ry="10" fill="#f1f1f1"/>
+  <text x="280" y="300" font-family="Arial" font-size="12" fill="#333">Temos 3 planos disponíveis:</text>
+  <text x="280" y="320" font-family="Arial" font-size="12" fill="#333">- Básico: R$ 97/mês</text>
+  <text x="280" y="340" font-family="Arial" font-size="12" fill="#333">- Profissional: R$ 197/mês</text>
+  
+  <!-- Input field -->
+  <rect x="260" y="470" width="280" height="40" rx="20" ry="20" fill="#f1f1f1"/>
+  <circle cx="290" cy="490" r="15" fill="#075E54"/>
+  <text x="360" y="495" font-family="Arial" font-size="12" fill="#999">Digite uma mensagem...</text>
+  
+  <!-- Phone button -->
+  <circle cx="400" cy="530" r="15" fill="#ddd"/>
+</svg> 
